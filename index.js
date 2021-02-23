@@ -2,5 +2,5 @@
 let element = document.querySelector("#main")
 element.remove()
 
-let newHeader = document.querySelector('#victory')
+let newHeader = document.createElement('h1#victory')
 document.body.appendChild(newHeader)
